@@ -2,10 +2,13 @@
 const calculateButton = document.getElementById("calculateBtn"); 
 const textResult = document.getElementById("textResult");
 
+//stores all the student record
+let studentRecord = []
+
 calculateButton.addEventListener("click", () => {
-    const courseName = document.getElementById("CourseName").value.trim();
-    const assignmentScore = document.getElementById("assigScore").value;
-    const assignmentWeight = document.getElementById("assigWeight").value;
+    const courseName = document.querySelector(".CourseName").value.trim();
+    const assignmentScore = document.querySelector(".assigScore").value;
+    const assignmentWeight = document.querySelector(".assigWeight").value;
 
     const courseDetail = {
         course: courseName,
@@ -38,6 +41,11 @@ calculateButton.addEventListener("click", () => {
                 textResult.innerText = "You Achieved An: F"
             }
 
+        }, 
+        storeRecord:function(){
+            studentRecord.push(
+                this.
+            )
         }
         
         

@@ -11,17 +11,29 @@
 
         <div class="mainContainer">
             <div class="formContainer">
-                <input type="text" id="CourseName" placeholder="Assignment Name">
-                
-                <div class="gradeContainer">
-                    <input type="number" id="assigScore" placeholder="Assignment Score">
-                    
-                    <div class="assigContainer">
-                        <label for="assigWeight">%</label>
-                        <input type="number" id="assigWeight" name="assigWeight" placeholder="Assignment Weight">
-                    </div>    
+                <div class="courseContainer">
+                    <label for="CourseName" class="position">1.</label>
+                    <input type="text" class="CourseName" placeholder="Assignment Name" name="CourseName">
                 </div>
+                <div class="gradeContainer">
+                    <input type="number" class="assigScore" placeholder="Assignment Score">
+                    <input type="number" class="assigWeight" name="assigWeight" placeholder="Assignment Weight">
+                </div>
+                <div class="courseContainer">
+                    <label for="CourseName" class="position">1.</label>
+                    <input type="text" class="CourseName" placeholder="Assignment Name" name="CourseName">
+                </div>
+                <div class="gradeContainer">
+                    <input type="number" class="assigScore" placeholder="Assignment Score">
+                    <input type="number" class="assigWeight" name="assigWeight" placeholder="Assignment Weight">
+                </div>
+                
+                
+                <div class="actionContainer">
                 <button id="calculateBtn">Calculate</button>
+                    <button class="actionButton" id="addBtn">+</button>
+                    <button class="actionButton"  id="removeBtn">-</button>
+                </div>
             </div>
             <div class="resultContainer">
                 <p id="textResult"></p>
