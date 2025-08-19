@@ -1,28 +1,30 @@
 //variables
+
+/*
 const courseName = document.getElementById("CourseName").trim()
 const assignmentScore = document.getElementById("assigScore").trim()
 const assignmentWeight = document.getElementById("assigWeight").trim()
 const calcualteButton = document.getElementById("calculateBtn"); 
 
 
-calcualteButton.addEventListener("click", ()=>{
-    
+*/
+const courseName = " java script "
+const assignmentScore =  70
+const assignmentWeight = 10
+
     const courseDetail = {
-        course: courseName.value(),
-        score: assignmentScore.value(),
-        weight: assignmentWeight.value(),
+        course: courseName,
+        score: assignmentScore,
+        weight: assignmentWeight,
     
         determineGrade: function(){
-
+            // formula to determine the grade
+            const finalGrade = assignmentScore * assignmentWeight
+            console.log(finalGrade)
         }
         
     }
 
-})
-
-// formula to determine the grade
-const finalGrade = assignmentScore * assignmentWeight
 
 
-
-
+courseDetail.determineGrade()
