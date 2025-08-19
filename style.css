@@ -112,7 +112,7 @@
 .resultContainer{
     background-color: var(--textColor);
     padding: 3rem 6rem;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     
