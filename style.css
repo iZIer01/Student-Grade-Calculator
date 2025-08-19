@@ -62,9 +62,11 @@
 
 .gradeContainer input{
     padding: 1.1rem 1.7rem;
+    margin-bottom: 2.4rem;
     width: 31.8rem;
     border-radius: .4rem;
     outline: none;
+
     font-size: 1.4rem;
 }
 
@@ -81,9 +83,9 @@
 
 .assigContainer label{
     position: absolute;
-    top: 50%;
+    top: 25%;
     right:5% ;
-    transform: translateY(-50%);
+    transform: translateY(-25%);
 
     font-size: 1.5rem;
     font-weight: 600;
@@ -91,3 +93,17 @@
 
 }
 
+#calculateBtn{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: var(--accentColor);
+    color: var(--textColor);
+    
+    padding: 1.2rem;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+#calculateBtn:hover{
+    background-color: #58dde9;
+}
