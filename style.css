@@ -100,10 +100,26 @@
     color: var(--textColor);
     
     padding: 1.2rem;
+    margin-bottom: 2rem;
     border-radius: .6rem;
     cursor: pointer;
 }
 
 #calculateBtn:hover{
     background-color: #58dde9;
+}
+
+.resultContainer{
+    background-color: var(--textColor);
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius:.4rem;
+    font-size:2.2rem ;
+}
+
+.resultContainer #result{
+    padding-left: .5rem;
 }
