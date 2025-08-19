@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --backgroundColor:#131313;
+    --primaryColor: linear-gradient(90deg,#5d347a,#131313);
+    --accentColor:#4ec3cd;
+    --textColor: #F2F0EF;
+
+}
