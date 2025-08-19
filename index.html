@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Grade Cali</title>
+</head>
+<body>
+    <div class="background">
+
+        <div class="mainContainer">
+            <div class="formContainer">
+                <input type="text" id="CourseName" placeholder="Assignment Name" >
+                
+                <div class="gradeContainer">
+                    <input type="number" id="assigScore" placeholder="Assignment Score">
+                    
+                    <div class="assigContainer">
+                        <label for="assigWeight">%</label>
+                        <input type="number" id="assigWeight" name="assigWeight" placeholder="Assignment weight">
+                    </div>    
+                </div>
+                <button id="calculateBtn">Calculate</button>
+            </div>
+            <div class="resultContainer">
+                <p id="textResult"></p>
+                <p id="result"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
