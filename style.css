@@ -6,9 +6,48 @@
 
 
 :root{
-    --backgroundColor:#131313;
-    --primaryColor: linear-gradient(90deg,#5d347a,#131313);
+    --backgroundColor:#1a1a1a;
+    --primaryColor: linear-gradient(180deg,#5d347a,#131313);
     --accentColor:#4ec3cd;
     --textColor: #F2F0EF;
 
+}
+
+.background{
+    background-color: var(--backgroundColor);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    background-image: var(--primaryColor);
+    border: #5d347a solid .3rem;
+    border-radius: 1rem;
+    
+    width: 100%;
+    max-width: 70rem;
+    max-height: 56rem;
+    padding: 2rem 1.6rem;
+
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#CourseName{
+    width: 100%;
+    padding: 1.3rem 1.7rem;
+    margin-bottom: 2rem;
+
+    border-radius: .4rem;
+    outline: none;
+    font-size: 1.4rem;
 }
