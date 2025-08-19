@@ -44,10 +44,50 @@
 
 #CourseName{
     width: 100%;
-    padding: 1.3rem 1.7rem;
+    padding: 1.1rem 1.7rem;
     margin-bottom: 2rem;
 
     border-radius: .4rem;
     outline: none;
     font-size: 1.4rem;
 }
+
+.gradeContainer{
+    display: flex;
+    justify-content:center;
+    gap: 3rem;
+    align-items: center;
+    width: 100%;
+}
+
+.gradeContainer input{
+    padding: 1.1rem 1.7rem;
+    width: 31.8rem;
+    border-radius: .4rem;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.gradeContainer input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.assigContainer {
+
+    display: inline-block;
+    position: relative;
+}
+
+
+.assigContainer label{
+    position: absolute;
+    top: 50%;
+    right:5% ;
+    transform: translateY(-50%);
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #b1b1b1;
+
+}
+
